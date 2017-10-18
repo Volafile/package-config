@@ -1,0 +1,22 @@
+{
+  "name": "package-config",
+  "description": "Read the config of a package using its directory or name.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Volafile/package-config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Volafile/package-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Volafile/package-config/issues"
+  },
+  "author": {
+    "name": "laino",
+    "email": "lain@volafile.org"
+  },
+  "dependencies": {
+    "ini": ""
+  },
+  "private": false
+}
