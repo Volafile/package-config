@@ -3,6 +3,7 @@ const path = require('path');
 const os = require('os');
 const fs = require('fs');
 const ini = require('ini');
+const util = require('util');
 
 const readFile = util.promisify(fs.readFile);
 
@@ -48,11 +49,11 @@ async function readINIConfig(path, packageName) {
         const config = ini.parse(contents.toString('utf8'));
         const result = {};
 
-        Object.keys(config).forEach(key => {
+        for (const key of Object.keys(config)) {
             if (key.startsWith(packageName + ':')) {
                 result[key.slice(packageName.length + 1)] = config[key];
             }
-        });
+        };
 
         return result;
     } catch (error) {
