@@ -1,7 +1,7 @@
 package-config
 ==============
 
-Simply read the package config of a package. Optionally also reading a package.json.
+Simply read the configuration of any package. Optionally also reading a package.json.
 
 Config files read:
 
@@ -16,9 +16,9 @@ Usage:
 
 ```js
 
-const packageConfig = require('package-config');
+const readConfig = require('read-package-config');
 
-const config = await packageConfig({
+const config = await readConfig({
     name: 'my-package',     // Packages can be identified by name...
     directory: './',        // or directory. In which case its package.json and .npmrc will also be read.
 

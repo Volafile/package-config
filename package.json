@@ -1,15 +1,15 @@
 {
-  "name": "package-config",
-  "description": "Read the config of a package using its directory or name.",
+  "name": "read-package-config",
+  "description": "Read the configuration of any package using its directory or name.",
   "version": "1.0.0",
-  "homepage": "https://github.com/Volafile/package-config",
+  "homepage": "https://github.com/Volafile/read-package-config",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Volafile/package-config.git"
+    "url": "https://github.com/Volafile/read-package-config.git"
   },
   "bugs": {
-    "url": "https://github.com/Volafile/package-config/issues"
+    "url": "https://github.com/Volafile/read-package-config/issues"
   },
   "author": {
     "name": "laino",
