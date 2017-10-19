@@ -1,4 +1,4 @@
-package-config
+read-package-config
 ==============
 
 Simply read the configuration of any package. Optionally also reading a package.json.
